@@ -28,7 +28,7 @@ section{
     width: 50%;
 }
 .half-width img{
-    width: 70%;
+    width: 100%;
 }
 .style{
     padding: 50px;
@@ -101,7 +101,7 @@ section{
     
 }
 .img-dev{
-    width: 50%;
+    width: 100%;
     width: 600px;
     padding: 40px 40px;
     margin: 20px;
@@ -119,3 +119,43 @@ section{
 }
 
 /** section-4****/
+
+#section-4{
+    margin: 80px 0px;
+}
+.full-box{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 50px 0px;
+    box-shadow: 5px 8px 40px grey;
+}
+.count-down{
+    text-align: center;
+}
+.count-down h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.count-down p{
+    margin: 0;
+}
+
+/****** footer section ***/
+footer{
+    text-align: center;
+    background-color: rgb(19, 10, 10);
+    color: white;
+    padding: 40px 0px 70px;
+}
+footer h1{
+    font-size: 30px;
+    color: rgb(122, 122, 113);
+}
+.tomato{
+    color: rgb(179, 52, 30);
+}
